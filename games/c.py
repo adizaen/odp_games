@@ -12,4 +12,15 @@ def c():
     """
 
     # write the code solution here
-    print("Mohon maaf, permainan C belum tersedia!")
+    n = input("Masukkan angka: ")
+
+    n_string = str(n)
+    
+    temp = 0
+    for i in n_string:
+        temp = temp + int(i)**len(n_string)
+
+    if temp == int(n_string):
+        print(f"Bilangan {n_string} adalah bilangan Armstrong")
+    else:
+        print(f"Bilangan {n_string} bukan bilangan Armstrong")
