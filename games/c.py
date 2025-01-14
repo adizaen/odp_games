@@ -1,4 +1,3 @@
-
 def c():
     """
     Buat program untuk memeriksa apakah sebuah angka merupakan bilangan Armstrong.
@@ -23,4 +22,4 @@ def c():
     if temp == int(n_string):
         print(f"Bilangan {n_string} adalah bilangan Armstrong")
     else:
-        print(f"Bilangan {n_string} bukan bilangan Armstrong")
+        print(f"Bilangan {n_string} bukan bilangan Armstrong")
